@@ -1,2 +1,15 @@
 [user]
 	email = smkazimn@gmail.com
+	name = smknaqvi
+[alias]
+	co = checkout
+	br = branch
+	ci = commit
+	st = status
+	unstage = reset HEAD --
+	last = log -1 HEAD
+	visual = !gitk
+[credential]
+	helper = cache --timeout=28800000
+[core]
+	editor = vim
